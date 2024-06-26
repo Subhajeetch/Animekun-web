@@ -113,7 +113,7 @@ nav .wbtn {
 }
 
 .extra {
-  width: 0;
+  display: none;
 }
 
 nav .mbtn {
