@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+
+
+
 :root{
 
-  --color-1: #0f1016;
+  --color-1: #240750;
   --text-color: #f0f0f0;
   --accent-color: #006aff;
 }
@@ -17,8 +21,12 @@ html{
   font-family: Poppins, Segoe UI, Tahoma, sans-serif;
 }
 
+body {
+ 
+}
+
 nav{
-  height: 60px;
+  height: 50px;
   background-color: var(--color-1);
   display: flex;
   justify-content: flex-end;
@@ -90,7 +98,7 @@ nav .mbtn {
   display: none;
 }
 
-@media(max-width: 450px){
+@media(max-width: 550px){
   nav .logo-one{
   margin-right: auto;
   display: block;
@@ -133,7 +141,7 @@ nav .mbtn {
 
     background-color: var(--color-1);
     box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
-    transition: 0.75s ease-out;
+    transition: 0.55s ease-out;
   }
   
   nav a{
@@ -164,6 +172,9 @@ nav .mbtn {
   
   nav .home-link{
   display: block;
- }
- 
+  }
+}
+
+h1 {
+  margin-bottom: 1000px;
 }
