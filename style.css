@@ -10,7 +10,7 @@
   --text-color: #FFFFFF;
   --accent-color: #F1EEDC;
   --body-color: #2C2C2C;
-  --button-color: #FF1616;
+  --button-color: #00ADB5;
 }
 
 *{
@@ -190,6 +190,7 @@ h1 {
 }
 
 
+/* ----------------------------*/
 
 button:hover {
  background-color: #800505;
