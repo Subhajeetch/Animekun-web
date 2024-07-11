@@ -199,6 +199,14 @@ iframe {
   
   .left-side {
     width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 40px 0 0 -14px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .server-view-container {
@@ -210,12 +218,6 @@ iframe {
     margin: 0;
   }
   
-  .left-side {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
   
   .mobile-banner {
     margin: 20px 0 0 0;
