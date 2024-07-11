@@ -6,10 +6,10 @@
 
 :root{
 
-  --color-1: #1b1b1b;
+  --color-1: #1B262C;
   --text-color: #FFFFFF;
   --accent-color: #F1EEDC;
-  --body-color: #2C2C2C;
+  --body-color: #001D20;
   --button-color: #00ADB5;
 }
 
@@ -25,6 +25,7 @@ html{
 
 body {
  background: var(--body-color);
+ font-family: Poppins, Segoe UI, Tahoma, sans-serif;
 }
 
 nav{
@@ -184,14 +185,51 @@ nav .mbtn {
   }
 }
 
-h1 {
-  margin-bottom: 1000px;
-  color: #FFF0F0;
-}
-
-
 /* ----------------------------*/
 
 button:hover {
- background-color: #800505;
+ background-color: #00696E;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer.  */
+
+footer {
+  height: 60px;
+  background-color: var(--color-1);
+  margin: 60px 0 0 0;
+}
+
+.footer-div {
+  padding: 25px 0 0 0;
+}
+
+.c-animekun-para {
+  text-align: center;
+  color: #C4C4C4;
+  font-size: 14px;
+}
+
+.brand {
+  font-weight: 600;
 }

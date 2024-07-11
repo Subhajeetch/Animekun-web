@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.server-view-container {
+ height: 540px;
+ margin: 20px 10px 0 10px;
+ border-radius: 40px;
+ background-color: #003C43;
+ border-bottom: 5px solid #92FAFF;
+}
+
+.background-img {
+  display: flex;
+  justify-content: right;
+}
+
+.anime-kun-cover {
+  height: 540px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0 40px 40px 0;
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8) 70%, black);
+}
+
+
+.animekun-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 80px 0 0;
+  border: 5px solid transparent;
+  outline: 3px solid #92FAFF;
+}
+
+.left-side {
+  position: absolute;
+  width: 440px;
+  z-index: 5;
+  margin: 40px 0 0 0;
+  padding: 0 0 0 30px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  color: #92FAFF;
+  margin: 25px 0 20px 0;
+  line-height: 1.2;
+  font-size: 26px;
+}
+
+.main-para {
+  color: var(--text-color);
+  line-height: 1.4;
+  font-size: 14px;
+  margin: 0 0 30px 0;
+}
+
+.hjoin-sv-btn {
+  border: none;
+  background-color: var(--button-color);
+  height: 48px;
+  width: 134px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 5px;
+  color: var(--text-color);
+}
+
+.btn-arrow {
+  font-size: 20px;
+  padding: 0 0 2px 3px;
+}
+
+.mobile-banner {
+  display: none;
+}
+
+
+/* Season btns styles */
+
+.season-btn-section {
+  margin: 40px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.season-heading {
+  color: var(--text-color);
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.btn-anime-kun {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.season-btns {
+  margin: 30px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.s-btn {
+  height: 48px;
+  width: 160px;
+  border: 3px solid #92FAFF;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.s-btn-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.season-btn-disc {
+  color: var(--text-color);
+  font-size: 10px;
+  
+}
+
+.show-discord-members {
+  color: var(--text-color);
+  font-size: 20px;
+  text-align: center;
+  margin: 80px 0 10px 0;
+}
+
+.show-discord-members-disc {
+  color: var(--text-color);
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 0 100px;
+}
+
+.discord-frame {
+  margin: 30px 20px 0 20px;
+  border-radius: 6px;
+  border-bottom: 3px solid #92FAFF;
+}
+
+iframe {
+  background-color: #003C43;
+}
+
+.h2-topics {
+  margin: 80px 20px 0 20px;
+  padding: 0 50px 0 50px;
+}
+
+.heading-two {
+  color: var(--text-color);
+  margin: 40px 0 16px 0;
+  font-size: 20px;
+}
+
+.para-for-heading-two {
+  color: #C4C4C4;
+  padding: 0 0 0 28px;
+  font-size: 14px;
+}
+
+.ul-para {
+  padding: 0 0 0 38px;
+  margin: 26px 0 0 0;
+}
+
+.ul-para li {
+  margin: 16px 0 0 0;
+}
+
+
+
+@media (max-width: 580px) {
+  
+  .background-img {
+    display: none;
+  }
+  
+  .left-side {
+    width: 300px;
+  }
+  
+  .server-view-container {
+    border-radius: 20px;
+  }
+  
+  .animekun-logo {
+    margin: 0;
+  }
+  
+  .left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .mobile-banner {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .anime-kun-mobile-bannner {
+    width: 300px;
+    border-radius: 25px;
+    border: 2px solid #92FAFF;
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7) 50%, black);
+  }
+  
+  .season-btn-section {
+    margin: -10px 0 0 0;
+  }
+  
+  .season-heading {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .btn-anime-kun {
+  font-size: 26px;
+  font-weight: 700;
+  }
+  
+  .show-discord-members-disc {
+    padding: 0;
+  }
+  
+  .h2-topics {
+    padding: 0;
+  }
+
+  
+}
