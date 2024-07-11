@@ -4,7 +4,7 @@ body {
 }
 
 .server-view-container {
- height: 640px;
+ height: 540px;
  margin: 20px 10px 0 10px;
  border-radius: 40px;
  background-color: #003C43;
@@ -17,7 +17,7 @@ body {
 }
 
 .anime-kun-cover {
-  height: 640px;
+  height: 540px;
   object-fit: cover;
   object-position: top;
   border-radius: 0 40px 40px 0;
@@ -203,6 +203,7 @@ iframe {
   
   .server-view-container {
     border-radius: 20px;
+    height: 660px;
   }
   
   .animekun-logo {
