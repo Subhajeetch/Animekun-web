@@ -4,7 +4,7 @@ body {
 }
 
 .server-view-container {
- height: 540px;
+ height: 564px;
  margin: 20px 10px 0 10px;
  border-radius: 40px;
  background-color: #003C43;
@@ -17,7 +17,7 @@ body {
 }
 
 .anime-kun-cover {
-  height: 540px;
+  height: 564px;
   object-fit: cover;
   object-position: top;
   border-radius: 0 40px 40px 0;
