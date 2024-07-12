@@ -87,7 +87,7 @@ nav svg{
 nav .wbtn {
   height: 30px;
   width: 80px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   background-color: var(--button-color);
   border-radius: 8px;
