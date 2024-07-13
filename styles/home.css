@@ -119,6 +119,7 @@ h1 {
   row-gap: 40px;
 }
 
+
 .s-btn {
   height: 48px;
   width: 160px;
@@ -206,11 +207,6 @@ iframe {
 
 .last-join-server-btn .hjoin-sv-btn {
     border-bottom: 2px solid #92FAFF;
-}
-
-.brand-link {
-    text-decoration: none;
-    color: #C4C4C4;
 }
 
 

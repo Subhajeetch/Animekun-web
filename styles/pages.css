@@ -1,4 +1,6 @@
-.full-page {
+/* global content styles */
+
+body {
     height: 100%;
 }
 
@@ -10,4 +12,190 @@
 
 main {
     flex: 1;
+}
+
+h1 {
+    text-align: center;
+    color: #92FAFF;
+    font-size: 26px;
+    margin: 50px 0 0 0;
+    }
+
+h2 {
+    font-size: 18px;
+    color: #92FAFF;
+}
+
+/* finish global content styles */
+/* about.html */
+
+
+.main-h {
+    margin: 0px 14px 50px 14px;
+    }
+
+.animekun {
+    font-size: 30px;
+    font-weight: 800;
+    }
+
+
+.wallpaper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    }
+
+.tanjiro-wall {
+    width: 60%;
+    border-radius: 20px;
+    border-bottom: 4px solid #92FAFF;
+    }
+
+
+.points-disc {
+    margin: 0 160px 0 160px;
+    }
+
+
+.sub-h {
+    text-align: center;
+    font-size: 22px;
+    margin: 80px 0 50px 0;
+}
+
+.points {
+    margin: 0 0 10px 0;
+}
+
+.disc {
+    font-size: 12px;
+    color: #C4C4C4;
+    margin: 0 0 20px 30px;
+}
+
+.last-para {
+    text-align: center;
+    font-size: 16px;
+    color: #C4C4C4;
+    margin: 40px 0 0 0;
+}
+
+
+/* finish about.html */
+/* start contact.html */
+
+.main-contact-page-contents {
+    margin: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-para {
+    color: #C4C4C4;
+    font-size: 14px;
+    margin: 50px 0 20px 0;
+}
+
+.contact-img {
+    width: 40%;
+    border-radius: 14px;
+    border-bottom: 4px solid #92FAFF;
+}
+
+
+/* finish contact.html */
+/* start seasons.html */
+
+.btn-container {
+  margin: 40px 16px 100px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.season-para {
+    font-size: 14px;
+    color: #C4C4C4;
+    text-align: center;
+}
+
+.btn-group {
+  margin: 30px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.s-btn {
+  height: 48px;
+  width: 160px;
+  border: 3px solid #92FAFF;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.s-btn-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.season-btn-disc {
+  color: var(--text-color);
+  font-size: 10px;
+  
+}
+
+.disc-h {
+    font-size: 14px;
+    color: #D9D9D9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 580px) {
+/* global content styles */
+    
+    
+    
+    
+    
+/* finish global content styles */
+/* about.html */
+    .tanjiro-wall {
+       width: 86%;
+    }
+
+    .points-disc {
+       margin: 0 16px 0 16px;
+    }
+    
+/* finish about.html */
+/* start contact.html */
+    .contact-img {
+       width: 80%;
+    }
+/* finish contact.html */
+/* start seasons.html */
+    .btn-group {
+        grid-template-columns: 1fr;
+    }
+
+
+
 }

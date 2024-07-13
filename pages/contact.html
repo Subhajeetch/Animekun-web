@@ -42,13 +42,16 @@
   
   
     <link rel="stylesheet" href="/styles/general.css">
-    <link rel="stylesheet" href="/styles/home.css">
     <link rel="stylesheet" href="/styles/pages.css">
+    <!--- for join btn --->
+    <link rel="stylesheet" href="/styles/home.css">
 </head>
 
 <body>
+
+ <div class="page-content">
   
-<header>
+  <header>
   <nav>
      <img class="logo-one" src="/images/logo.png" height="55px" width="auto">
 
@@ -75,11 +78,12 @@
       
       <a class="home-link" href="/index.html">Home</a> 
       
+      <a href="/pages/seasons.html">Seasons</a>
+      
       <a href="/pages/about.html">About</a>
       
       <a href="/pages/contact.html">Contact</a>
       
-      <a href="/pages/seasons.html">Seasons</a>
       
       <button onclick="window.location.href = 'https://discord.gg/6DhssCN2Ph';" class="wbtn">Join Server</button>
       
@@ -90,23 +94,37 @@
       
     </div>
   </nav>
-</header>
+</header>   
+     
 <!--- actual content --->
-  
-<div class="full-page">
-    
-
- <div class="page-content">
+     
      <main>
          
          
          
          
-        <h1>Contact</h1>
+        <h1>Contact AnimeKun</h1>
+       
+       <div class="main-contact-page-contents">
+           
+           
+            <p class="contact-para">Need help with something? You can contact by joining our server. There is a text channel called <strong>"get-support"</strong>, you can go there and make a ticket & our staffs will help you with your problem. For better understanding, you can see the image below, the text channel is visible there. We'll be waiting for you :)</p>
+            
+            <img class="contact-img" src="/images/contact_animekun.jpg" alt="how-to-contact-anime-kun">
+       </div> 
         
-        
-        
+        <div class="last-join-server-btn">
+      
+           <button onclick="window.location.href = 'https://discord.com/invite/fQWa2Ezm34';" class="hjoin-sv-btn">Join Server <span class="btn-arrow">&#9654</span></button>
+           
+           <p class="last-para">We'll be waiting for you there :)</p>
+       
+        </div>
      </main>
+     
+     
+     
+     
   <footer>
     <div class="footer-div">
        <p class="c-animekun-para">
@@ -114,10 +132,7 @@
        </p>
     </div>
   </footer>
+  
  </div>
-</div>
-
-
 </body>
-
 </html>

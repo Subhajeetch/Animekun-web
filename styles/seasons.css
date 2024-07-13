@@ -1,0 +1,185 @@
+body {
+    height: 100%;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+
+/* actual content styles */
+
+h1 {
+    text-align: center;
+    color: #92FAFF;
+    font-size: 26px;
+    margin: 50px 16px 0 16px;
+    }
+    
+.h-bold {
+    font-size: 30px;
+    text-decoration: underline;
+}    
+
+
+.wallpaper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    }
+    
+.tanjiro-wall {
+    width: 60%;
+    border-radius: 20px;
+    border-bottom: 4px solid #92FAFF;
+    }
+    
+.season-disc {
+    text-align: center;
+    font-size: 14px;
+    color: #C4C4C4;
+    margin: 0 16px 0 16px;
+}
+
+
+
+
+
+.season-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0 0 0;
+}
+
+.season-imgs {
+    width: 400px;
+}
+
+.img-first {
+    border-radius: 10px 10px 0 0;
+}
+
+.img-last {
+    border-radius: 0 0 10px 10px;
+    border-bottom: 4px solid #92FAFF;
+}
+
+.achivement {
+    color: #92FAFF;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.hokage-tag {
+    color: #FF1C00;
+}
+
+/* only for season 1 */
+
+.season-one-img {
+    width: 400px;
+    border-radius: 10px;
+    border-bottom: 4px solid #92FAFF;
+}
+
+.sorry-para {
+    font-size: 14px;
+    color: #C4C4C4;
+    margin: 10px 16px 0 16px;
+}
+
+.snowman {
+    font-size: 24px;
+}
+
+/* finished only for season 1 */
+
+
+
+
+
+.recommend-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 0 0;
+}
+
+.recommend-para {
+    font-size: 18px;
+    color: #92FAFF;
+    font-weight: 800;
+    margin: 0 0 5px 0;
+}
+
+
+.s-btn {
+  height: 48px;
+  width: 160px;
+  border: 3px solid #92FAFF;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.s-btn-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.season-btn-disc {
+  color: var(--text-color);
+  font-size: 10px;
+  
+}
+
+.view-seasons-para {
+    color: #C4C4C4;
+    font-size: 16px;
+    margin: 4px 0 0 0;
+}
+
+.view-seasons-para a {
+    color: #EBE9E9;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 580px) {
+    
+    .tanjiro-wall {
+       width: 86%;
+    }
+    
+    
+    /* only for season 1 */
+
+     .season-one-img {
+        width: 300px;
+      }
+        
+    /* finished only for season 1 */
+    
+    
+    .season-imgs {
+    width: 300px;
+    }
+    
+}
