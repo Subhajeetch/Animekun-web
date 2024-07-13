@@ -37,20 +37,6 @@
   
   
   
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   <link rel="stylesheet" href="/styles/general.css">
@@ -108,7 +94,7 @@
 
 
 <!--- Actual Contents Starts From Here! --->
-
+<main>
 
   <div class="server-view-container">
     
@@ -158,11 +144,19 @@
     
     <div class="season-btns">
       
-      <button class="s-btn"><p class="s-btn-heading">Season 1</p> <p class="season-btn-disc">2023 - 2024</p></button>
+      <button onclick="
       
-      <button class="s-btn"><p class="s-btn-heading">Season 2</p> <p class="season-btn-disc">2024 - 2024</p></button>
+      window.location.href = '/Seasons/season1.html';
       
-      <button onclick="alert('Season 2 is ongoing.');" class="s-btn"><p class="s-btn-heading">Season 3</p> <p class="season-btn-disc">Ongoing</p></button>
+      " class="s-btn"><p class="s-btn-heading">Season 1</p> <p class="season-btn-disc">6/7/2023 - 1/2/2024</p></button>
+      
+      <button onclick="
+      
+      window.location.href = '/Seasons/season2.html';
+      
+      " class="s-btn"><p class="s-btn-heading">Season 2</p> <p class="season-btn-disc">1/2/2024 - 15/7/2024</p></button>
+      
+      <button onclick="alert('Season 3 is ongoing.');" class="s-btn"><p class="s-btn-heading">Season 3</p> <p class="season-btn-disc">15/7/2024 - Ongoing</p></button>
       
     </div>
     
@@ -308,7 +302,7 @@
        <p class="last-para">We'll be waiting for you there :)</p>
        
   </div>
- 
+</main> 
  
  
  
