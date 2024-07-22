@@ -157,12 +157,12 @@ h1 {
 
 .discord-frame {
   margin: 30px 20px 0 20px;
-  border-radius: 6px;
-  border-bottom: 3px solid #92FAFF;
 }
 
 iframe {
   background-color: #003C43;
+  border-radius: 6px;
+  border-bottom: 3px solid #92FAFF;
 }
 
 .h2-topics {
