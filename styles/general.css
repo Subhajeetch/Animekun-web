@@ -219,6 +219,10 @@ footer {
   height: 60px;
   background-color: var(--color-1);
   margin: 60px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer-div {
@@ -238,4 +242,13 @@ footer {
 .brand-link {
   text-decoration: none;
   color: #C4C4C4;
+}
+
+.made-manto999 {
+    color: #C4C4C4;
+    font-size: 8px;
+}
+
+.manto999 {
+    font-weight: 500;
 }
