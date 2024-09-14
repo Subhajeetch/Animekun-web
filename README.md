@@ -29,7 +29,7 @@ The server has season, when members talks there they get XP. Hence they level up
 ## Workload
 It took me 1.5 days to make this whole thing.
 In the home section, i used a picture that fades to the left with a CSS property called "mask-image", and tried to put the content on a div with position - 'absolute'.
-Some basic css styling & for indexing on Google & Bing i used basic SEO HTML stuffs.
+Some basic css styling & for indexing on Google & Bing i used basic SEO HTML stuffs so had to use Sitemaps & everything.
 
 ## How to Use
 If you'd like to clone this project and host your own version:
