@@ -12,6 +12,7 @@ This is a responsive website for a Anime based Discord Server named "AnimeKun", 
 - Simple and clean UI
 - Hosted on GitHub Pages
 - JavaScript for header & footer
+- Used Google Search Console to index the site on google
 
 ## Motivation
 This is a server i own that has 1900+ members by (September 15, 2024).
@@ -22,11 +23,13 @@ The server has season, when members talks there they get XP. Hence they level up
 - HTML
 - CSS
 - GitHub Pages for hosting
+- Google Search Console
+- Bing Webmaster
 
 ## Workload
 It took me 1.5 days to make this whole thing.
 In the home section, i used a picture that fades to the left with a CSS property called "mask-image", and tried to put the content on a div with position - 'absolute'.
-And some basic css styling.
+Some basic css styling & for indexing on Google & Bing i used basic SEO HTML stuffs.
 
 ## How to Use
 If you'd like to clone this project and host your own version:
