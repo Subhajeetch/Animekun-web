@@ -1,4 +1,4 @@
-# AnimeKun Website
+# AnimeKun Discord Site
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/940a957a-5f33-4cde-a5d7-e8d464714ceb" alt="Screenshot 1" width="40%" />
